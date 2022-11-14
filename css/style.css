@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif; 
+    color: white;
+    background-color: black;
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.navbar .nav-links li {
+    padding: 0 20px;
+}
+
+.title {
+    border: 3px solid black;
+    font-size: 40px;
+    margin: 10px 0 0 20px;
+    padding:0 5px;
+}
+
+.title:hover {
+    border: 3px solid rgb(61, 165, 61);
+    border-radius: 10px;
+    animation: shake 0.5s;
+    cursor: pointer;
+}
+
+@keyframes shake {
+    0% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(3px);
+    }
+    50% {
+        transform: translateX(-3px);
+    }
+    75% {
+        transform: translateX(3px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+.title .fl {
+    color: red;
+}
+
+.content-container{
+    display: flex;
+}
+
+.intro-container {
+    align-self: center;
+    width: 40vw;
+    margin-left: 120px;
+}
+
+.hi {
+    font-size: 60px;
+}
+
+.Name {
+    display: flex;
+    margin: 30px 0;
+}
+
+.vl {
+    border-left: 8px solid rgb(38, 176, 26);
+    height: 85px;
+    margin-left: 30px;
+}
+
+.name b {
+    font-size: 65px;
+    color: rgb(38, 176, 26);
+}
+
+.work {
+    font-size: 40px;
+}
+
+.image-container {
+    width: 25vw;
+    margin-left: 200px;
+}
+
+a:hover {
+    color: red;
+    transition: all;
+}
+
+
